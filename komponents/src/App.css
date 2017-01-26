@@ -1,13 +1,34 @@
-h2 {
+* {
   margin: 0;
   padding: 0;
+  cursor: default;
 }
 
-div {
-  display: inline-block;
+i {
+  margin-right: 3px;
+}
+
+header {
+  width: 100%;  
+  color: #FFFFFF;
+  background: #29ABA4;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/*header:hover {
+  cursor: pointer;
+  background: #1F807B;
+  color: #7FCDC8;
+}*/
+
+.logo span {
+  font-size: 2em;
 }
 
 .k {
-  font-size: 1.5em;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: bold;
   transform: scale(-1, 1);
 }
